@@ -28,12 +28,12 @@ Focused on the Mainstream Young Singles/Couples segment to analyze their prefere
 
 Insights:
 - The three highest-contributing segments to total sales are:
-1.Budget Older Families
-2.Mainstream Young Singles/Couples
-3.Mainstream Retirees
--Older Families purchase the highest average number of chip packets per customer, while Mainstream Young Singles/Couples make up the largest customer population.
--Across most segments, Kettle Chips and 175g packets are the most frequently purchased.
--Mainstream Young Singles/Couples are 28% more likely to buy Tyrrells Chips than other segments and 32% more likely to purchase 270g chip packets, which are Twisties Chips.
+-- 1.Budget Older Families
+-- 2.Mainstream Young Singles/Couples
+-- 3.Mainstream Retirees
+- Older Families purchase the highest average number of chip packets per customer, while Mainstream Young Singles/Couples make up the largest customer population.
+- Across most segments, Kettle Chips and 175g packets are the most frequently purchased.
+- Mainstream Young Singles/Couples are 28% more likely to buy Tyrrells Chips than other segments and 32% more likely to purchase 270g chip packets, which are Twisties Chips.
 
 ### Task 2: Experimentation and Uplift Testing
 Files: QVI_task2.ipynb, reads QVI_data.csv
