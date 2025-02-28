@@ -1,5 +1,5 @@
 # Forage Quantium Data Analytics Virtual Experience Program
-My submission of this program's 3 tasks: 
+Tasks Assigned: 
 - Data preparation and customer analytics,
 - Experimentation and uplift testing, and
 - Analytics and commercial application.
@@ -9,23 +9,31 @@ Language: Python 3.8 \
 Packages: pandas, matplotlib, mlxtend, datetime, sklearn, scipy
 
 ## Project Overview and Task Insights 
-This virtual experience program involves analysing chip purchases at supermarkets.
-The aim of this project was to evaluate different customers' purchasing behaviours and the performance of trial stores with a new layout to provide insights of customer preferences to the client 
-and a recommendation of whether the trial has been successful. 
+This virtual experience program focuses on analyzing chip purchases at supermarkets. The project's goal was to assess customer purchasing behaviors and evaluate the performance of trial stores with a new layout. The findings provide insights into customer preferences and determine whether the trial was successful, along with a recommendation for the client.
 
 ### Task 1: Data Preparation and Customer Analytics
-Files: QVI_task1.ipynb, reads QVI_purchase_behaviour.csv and QVI_transaction_data.xlsx
-- Data cleaning: changed the date from integer format to datetime data type, removed salsas and outliers 
-- Analysed purchase behaviours of different customers (total sales, grouped by:
-  - LIFESTAGE: customer attribute that identifies whether a customer has a family or not and what point in life they are at
-  - MEMBER_TYPE: customer segmentation used to differentiate shoppers by the price point of products they buy and the types of products they buy. It is used to identify whether customers may spend more for quality or brand or whether they will purchase the cheapest options.
-- A deeper dive into the Mainstream Young Singles/Couples segment to determine their preferences (chip brand and packet size) over other segments
+Files:
+QVI_task1.ipynb: Reads QVI_purchase_behaviour.csv and QVI_transaction_data.xlsx
+Data Cleaning:
+- Converted date from integer format to datetime data type
+- Removed salsas and outliers
+- Analysis of Customer Purchase Behaviors:
+
+Examined total sales, grouped by:
+- LIFESTAGE: Categorizes customers based on family status and life stage
+- MEMBER_TYPE: Segments shoppers based on product price points and purchasing preferences, identifying whether they prioritize quality/brand or opt for the cheapest options
+- 
+Deep Dive:
+Focused on the Mainstream Young Singles/Couples segment to analyze their preferences in chip brand and packet size compared to other customer segments.
 
 Insights:
-- The three highest contributing segments to total sales are: 1. Budget older families, 2. Mainstream young singles/couples, 3. Mainstream retirees
-- Older families have largest avg no of packets purchased per customer, while the mainstream young singles/couples have the largest population
-- Across most segments, Kettles chips and 175g packets are the most purchased
-- Minstream young singles/couple are 28% more likely to purchase Tyrells chips than other segments, and 32% more likely to purchase 270g chip packets which are Twisties chips
+- The three highest-contributing segments to total sales are:
+1.Budget Older Families
+2.Mainstream Young Singles/Couples
+3.Mainstream Retirees
+-Older Families purchase the highest average number of chip packets per customer, while Mainstream Young Singles/Couples make up the largest customer population.
+-Across most segments, Kettle Chips and 175g packets are the most frequently purchased.
+-Mainstream Young Singles/Couples are 28% more likely to buy Tyrrells Chips than other segments and 32% more likely to purchase 270g chip packets, which are Twisties Chips.
 
 ### Task 2: Experimentation and Uplift Testing
 Files: QVI_task2.ipynb, reads QVI_data.csv
